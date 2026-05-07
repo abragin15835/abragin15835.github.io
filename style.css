@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+*{
+    margin:0;
+}
+header{
+    padding: 30px;
+    background-color: #900a0a;
+    display:flex;
+    justify-content:center;
+}
+
+body{
+    background-color: #ff4f34;
+    font-family: Luckiest Guy;
+    color: #ffffff
+}
+
+.buttons>a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 400px;
+}
+
+.cover{
+    background-image:url(Cover.png);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left:50px;
+}
+
+#FACTS>img{
+    width: 200px;
+    height:auto;
+}
+
+#FACTS>p{
+    width: 500px;
+}
+
+#FACTS{
+    display:flex;
+    justify-content:center;
+}
+
+#TROPHIES{
+    display:flex;
+    justify-content:center;
+}
+
+#TROPHIES>img{
+    width:200px;
+    height:auto;
+    margin-left:30px;
+}
+
+#COPYRIGHTS{
+    display:flex;
+    justify-content:space-around;
+    padding: 70px;
+    background-color:#900a0a;
+}
+
+#COPYRIGHTS>div{
+    width:350px;
+}
+
+#COPYRIGHTS nav{
+    display:flex;
+    flex-direction:column;
+}
+
+#COPYRIGHTS a{
+    color: rgb(255, 135, 49);
+    text-decoration:none;
+}
