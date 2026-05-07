@@ -18,12 +18,12 @@ body{
 .buttons>a{
     color: rgb(255, 255, 255);
     text-decoration: none;
-    margin-right: 400px;
+    margin-right: 350px;
 }
 
 .cover{
     background-image:url(Cover.png);
-    height: 400px;
+    height: 350px;
     background-repeat: no-repeat;
     background-size: cover;
     display:flex;
